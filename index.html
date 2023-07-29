@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="middle">
+    <div class="card">
+      <img src="images/image-equilibrium.jpg" alt="equilibrium" width="280">
+      <heading class="heading">Equilibrium #3429</heading>
+      <div class="content">
+        <p class="about">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="details">
+          <p>
+            <img src="images/icon-ethereum.svg" alt="icon-ethereum" />
+            <span>0.041 ETH</span>
+          </p>
+          <p>
+            <img src="images/icon-clock.svg" alt="icon-clock">
+            <span>3 days left</span>
+          </p>
+
+        </div>
+      </div>
+      <hr />
+      <div class="credits">
+        <img src="images/image-avatar.png" alt="avatar" height="30">
+        <p>
+          <span>Creation of</span>
+          Jules Wyvern
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © BishalSarder 
+  </footer>
+
+  <script>
+    const year = new Date().getFullYear();
+    console.log(year);
+
+    const footerEl = document.querySelector("footer");
+    footerEl.textContent += year.toString();
+  </script>
+
+</body>
+
+</html>
