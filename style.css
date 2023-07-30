@@ -33,7 +33,7 @@ section {
   justify-content: center;
   align-items: center;
   flex: 55%;
-  background-image: url("/images/image-equilibrium.jpg");
+  background-image: url("images/image-equilibrium.jpg");
   height: 280px;
   background-size: cover;
   background-repeat: no-repeat;
